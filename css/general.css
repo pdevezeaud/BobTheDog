@@ -39,3 +39,37 @@ section {
    padding-top: 100px;
 }
 
+.btnRose{
+    cursor:pointer;
+    display: block;
+    width: max-content;
+    text-decoration: none;
+    padding: 10px 60px;
+    border-radius: 30px;
+    background-color: var(--black);
+    color: white;
+    margin: 30px auto;
+    transition: all 0.3s ease;
+
+}
+
+.btnRose:hover{
+    background-color: var(--rose);
+    color: var(--black);
+}
+
+
+/* utilitaire */
+
+.invisible {
+    visibility: hidden;
+}
+
+
+.dnone {
+    display: none;
+}
+
+.rose {
+    color: var(--rose);
+}
